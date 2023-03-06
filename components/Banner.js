@@ -50,10 +50,10 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.4 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0 text-[20px]"
+              className="mb-8 max-w-lg mx-auto lg:mx-0 text-[35px]"
             >
               I have over two years experience in web development, design and
-              implementation of internet based applications. I sm able to learn
+              implementation of internet based applications. I am able to learn
               and work well with new technologies. I look forward to working
               with a great team of individuals who are using software technology
               to solve real world problems.
@@ -68,8 +68,8 @@ const Banner = () => {
             <Image
               src={foto1}
               alt="profilepix"
-              width={200}
-              height={200}
+              width={400}
+              height={400}
               className="rounded-xl lg:ml-0 lg:mx-w-[482]"
             />
           </motion.div>
