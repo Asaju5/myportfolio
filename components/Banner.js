@@ -51,7 +51,7 @@ const Banner = () => {
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
               I have over two years experience in web development, design and
-              implementation of internet based applications. I'm able to learn
+              implementation of internet based applications. I sm able to learn
               and work well with new technologies. I look forward to working
               with a great team of individuals who are using software technology
               to solve real world problems.

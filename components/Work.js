@@ -23,9 +23,7 @@ const Work = () => {
                 My Latest <br />
                 Projects
               </h2>
-              <p className="max-w-sm mb-16">
-                Here are some projects i've recently completed
-              </p>
+              <p className="max-w-sm mb-16">Here are some completed projects</p>
 
               <button className="btn btn-sm">See my stuff</button>
             </div>
