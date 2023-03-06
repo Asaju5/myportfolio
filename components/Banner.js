@@ -2,6 +2,8 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../pages/variants";
+import Image from "next/image";
+import foto1 from "../assets/profilepix1.jpg";
 const Banner = () => {
   return (
     <section
@@ -48,7 +50,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.4 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0"
+              className="mb-8 max-w-lg mx-auto lg:mx-0 text-[20px]"
             >
               I have over two years experience in web development, design and
               implementation of internet based applications. I sm able to learn
@@ -63,10 +65,12 @@ const Banner = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.4 }}
           >
-            <img
-              src="https://media.licdn.com/dms/image/C5603AQGWfDFTNLO6gg/profile-displayphoto-shrink_200_200/0/1647713803450?e=1683158400&v=beta&t=e9jvwurOgS-eToe8ojxhSDN8pu9NdBCTH4c0RchCVrY"
+            <Image
+              src={foto1}
               alt="profilepix"
-              className="rounded-xl ml-24 lg:ml-0 lg:mx-w-[482]"
+              width={200}
+              height={200}
+              className="rounded-xl lg:ml-0 lg:mx-w-[482]"
             />
           </motion.div>
         </div>

@@ -1,4 +1,8 @@
+import Image from "next/image";
 import React from "react";
+import foto1 from "../assets/portfolio-img1.png";
+import foto2 from "../assets/portfolio-img2.png";
+import foto3 from "../assets/portfolio-img3.png";
 
 const Work = () => {
   const ecommLink = () => {
@@ -30,9 +34,11 @@ const Work = () => {
             {/* image */}
             <div className="overflow-hidden border-2 border-white/50 rounded-xl">
               {/* img */}
-              <img
+              <Image
+                height={200}
+                width={200}
                 className="w-full"
-                src="https://images.unsplash.com/photo-1611926653458-09294b3142bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                src={foto1}
                 alt="project1"
               />
 
@@ -50,9 +56,11 @@ const Work = () => {
               {/* overlay */}
 
               {/* img */}
-              <img
+              <Image
+                height={200}
+                width={200}
                 className="w-full"
-                src="https://images.unsplash.com/photo-1611926653458-09294b3142bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                src={foto2}
                 alt="project1"
               />
 
@@ -66,9 +74,11 @@ const Work = () => {
 
             <div className="overflow-hidden border-2 border-white/50 rounded-xl">
               {/* img */}
-              <img
+              <Image
+                height={200}
+                width={200}
                 className="w-full"
-                src="https://images.unsplash.com/photo-1611926653458-09294b3142bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                src={foto3}
                 alt="project1"
               />
 
