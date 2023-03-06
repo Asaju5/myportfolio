@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import { fadeIn } from "../pages/variants";
+import { fadeIn } from "./variants";
 import Image from "next/image";
 import foto1 from "../assets/profilepix1.jpg";
 const Banner = () => {
