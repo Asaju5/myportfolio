@@ -2,10 +2,10 @@ import Image from "next/image";
 import React from "react";
 import foto1 from "../assets/portfolio-img1.png";
 import foto2 from "../assets/portfolio-img2.png";
-import foto3 from "../assets/portfolio-img3.png";
+import foto3 from "../assets/aifoto.jpg";
 
 const Work = () => {
-  const ecommLink = () => {
+  const aisearch = () => {
     window.open("https://open-ai-replica.vercel.app/");
   };
 
@@ -84,7 +84,7 @@ const Work = () => {
 
               <div className="p-2 flex items-center justify-between">
                 <span className="text-3xl text-white">Project One</span>
-                <button onClick={ecommLink} className="btn btn-sm">
+                <button onClick={aisearch} className="btn btn-sm">
                   View Project
                 </button>
               </div>
