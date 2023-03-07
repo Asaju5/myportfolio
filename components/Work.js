@@ -6,7 +6,7 @@ import foto3 from "../assets/portfolio-img3.png";
 
 const Work = () => {
   const ecommLink = () => {
-    window.open("https://www.linkedin.com/in/bamidele-simeon-406a10181/");
+    window.open("https://open-ai-replica.vercel.app/");
   };
 
   const blkchnLink = () => {
