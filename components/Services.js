@@ -15,7 +15,7 @@ const Services = () => {
           <div className="font-bold text-xl ">
             <ul>
               <li>HTML</li>
-              <li>Vanilla Javascript</li>
+              <li>Javascript</li>
               <li>React</li>
               <li>Nextjs</li>
             </ul>
