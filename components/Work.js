@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import foto1 from "../assets/portfolio-img1.png";
 import foto2 from "../assets/portfolio-img2.png";
-import foto3 from "../assets/aifoto.jpg";
+import foto2 from "../assets/portfolio-img2.png";
 
 const Work = () => {
   const aisearch = () => {
@@ -78,7 +78,7 @@ const Work = () => {
                 height={200}
                 width={200}
                 className="w-full"
-                src={foto3}
+                src={foto2}
                 alt="project1"
               />
 
