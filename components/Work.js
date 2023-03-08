@@ -74,13 +74,13 @@ const Work = () => {
 
             <div className="overflow-hidden border-2 border-white/50 rounded-xl">
               {/* img */}
-              <Image
+              {/* <Image
                 height={200}
                 width={200}
                 className="w-full"
                 src={foto2}
                 alt="project1"
-              />
+              /> */}
 
               <div className="p-2 flex items-center justify-between">
                 <span className="text-3xl text-white">Project One</span>
