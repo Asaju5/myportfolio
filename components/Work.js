@@ -1,20 +1,20 @@
 import Image from "next/image";
 import React from "react";
-import foto1 from "../assets/portfolio-img1.png";
-import foto2 from "../assets/portfolio-img2.png";
-import foto2 from "../assets/portfolio-img2.png";
+import foto1 from "../assets/portfolio-img2.png";
+import foto2 from "../assets/house.jpg";
+import foto3 from "../assets/download.jpg";
 
 const Work = () => {
   const aisearch = () => {
     window.open("https://open-ai-replica.vercel.app/");
   };
 
-  const blkchnLink = () => {
-    window.open("https://www.linkedin.com/in/bamidele-simeon-406a10181/");
+  const property = () => {
+    window.open("https://housing-beryl.vercel.app/");
   };
 
-  const socialApp = () => {
-    window.open("https://www.linkedin.com/in/bamidele-simeon-406a10181/");
+  const blkchnLink = () => {
+    window.open("https://next-cloud-xi.vercel.app/");
   };
   return (
     <section className="section lg:mb-24" id="work">
@@ -43,8 +43,10 @@ const Work = () => {
               />
 
               <div className="p-2 flex items-center justify-between">
-                <span className="text-3xl text-white">Project One</span>
-                <button onClick={socialApp} className="btn btn-sm">
+                <span className="text-3xl text-white">
+                  Cloud Mgt Landind Page
+                </span>
+                <button onClick={blkchnLink} className="btn btn-sm">
                   View Project
                 </button>
               </div>
@@ -65,8 +67,8 @@ const Work = () => {
               />
 
               <div className="p-2 flex items-center justify-between">
-                <span className="text-3xl text-white">Project One</span>
-                <button onClick={blkchnLink} className="btn btn-sm">
+                <span className="text-3xl text-white">Property Web App</span>
+                <button onClick={property} className="btn btn-sm">
                   View Project
                 </button>
               </div>
@@ -77,12 +79,12 @@ const Work = () => {
                 height={200}
                 width={200}
                 className="w-full"
-                src={foto2}
+                src={foto3}
                 alt="project1"
               />
 
               <div className="p-2 flex items-center justify-between">
-                <span className="text-3xl text-white">Project One</span>
+                <span className="text-3xl text-white">AI Search Bot</span>
                 <button onClick={aisearch} className="btn btn-sm">
                   View Project
                 </button>
