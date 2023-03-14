@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   const resume = () => {
     window.open(
-      "https://docs.google.com/document/d/1uuZMl2GD2WiLdRLAI9QmDrDZJVNp0Q9dLb3-rNynBL0/edit#heading=h.ca0awj8022e2"
+      "https://docs.google.com/document/d/1uuZMl2GD2WiLdRLAI9QmDrDZJVNp0Q9dLb3-rNynBL0/edit?usp=sharing"
     );
   };
   return (
