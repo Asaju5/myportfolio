@@ -1,7 +1,11 @@
 import React from "react";
-import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const resume = () => {
+    window.open(
+      "https://docs.google.com/document/d/1uuZMl2GD2WiLdRLAI9QmDrDZJVNp0Q9dLb3-rNynBL0/edit#heading=h.ca0awj8022e2"
+    );
+  };
   return (
     <header className="py-8 " id="home">
       <div className="container mx-auto">
@@ -9,9 +13,10 @@ const Navbar = () => {
           <a href="">
             <h1 className="text-2xl font-bold">PORTFOLIO</h1>
           </a>
-          <Link to="contact" smooth={true} activeClass="active" spy={true}>
-            <button className="btn btn-sm">Contact Me</button>
-          </Link>
+
+          <button className="btn btn-sm" onClick={resume}>
+            RESUME
+          </button>
         </div>
       </div>
     </header>
